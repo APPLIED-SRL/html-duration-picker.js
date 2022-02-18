@@ -740,8 +740,8 @@ export default (function () {
         const caretDown = document.createElement('div');
 
         // set css classes
-        caretUp.setAttribute('class', 'caret caret-up');
-        caretDown.setAttribute('class', 'caret caret-down ');
+        caretUp.setAttribute('class', 'custom-caret caret-up');
+        caretDown.setAttribute('class', 'custom-caret caret-down ');
 
         // Insert the carets into the up and down buttons
         scrollDownBtn.appendChild(caretDown);

@@ -5,7 +5,7 @@
   "main": "dist/html-duration-picker.min.js",
   "types": "dist/html-duration-picker.min.d.ts",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --mode=production --progress",
+    "build": "node ./node_modules/webpack/bin/webpack.js --mode=production --progress",
     "build:dev": "./node_modules/.bin/webpack --mode=development --progress",
     "build:full": "./node_modules/.bin/webpack --mode=production  --env.target='ie' --progress",
     "dev": "./node_modules/.bin/webpack serve --mode development --config webpack.config.js",

@@ -16,18 +16,18 @@
   position: absolute;
 }
 
-.html-duration-picker-input-controls-wrapper .caret {
+.html-duration-picker-input-controls-wrapper .custom-caret {
   width: 0;
   height: 0;
   border-style: solid;
 }
 
-.html-duration-picker-input-controls-wrapper .caret.caret-up {
+.html-duration-picker-input-controls-wrapper .custom-caret.caret-up {
   border-width: 0 4px 5px 4px;
   border-color: transparent transparent #000 transparent;
 }
 
-.html-duration-picker-input-controls-wrapper .caret.caret-down {
+.html-duration-picker-input-controls-wrapper .custom-caret.caret-down {
   border-width: 5px 4px 0 4px;
   border-color: #000 transparent transparent transparent;
 }
