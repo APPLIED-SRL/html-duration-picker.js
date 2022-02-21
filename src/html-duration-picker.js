@@ -513,7 +513,7 @@ export default (function () {
 
   const insertAndApplyValidations = (event) => {
     const inputBox = event.target;
-    const duration = inputBox.value || inputBox.dataset.duration;
+    const duration = inputBox.dataset.duration || inputBox.value ;
     const secondsValue = durationToSeconds(duration);
     insertFormatted(inputBox, applyMinMaxConstraints(inputBox, secondsValue));
   };
